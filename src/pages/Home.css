@@ -9,3 +9,25 @@
     width: 100%;
     min-height: 60vh;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* blanco -> negro */
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #333 !important;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  color: #333;
+}
+.carousel {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.carousel-caption {
+  position: static;
+  padding-top: 10px;
+  color: #333;
+}

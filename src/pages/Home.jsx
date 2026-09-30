@@ -19,26 +19,33 @@ const Home = () =>{
                         src="/assets/fotos/marroc.jpg"
                         className="d-block w-100"
                         alt="Chocolate"
-                        style={{ height: "60vh", objectFit: "cover" }}
-  />  
+                        style={{ height: "50vh", objectFit: "contain" }} />  
                         <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Marroc</h3>
+                        <p>Delicioso bocadito de crema de maní.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        
+                        <img
+                        src="/assets/fotos/mecano.jpg"
+                        className="d-block w-100"
+                        alt="Chocolate"
+                        style={{ height: "50vh", objectFit: "contain" }} />
                         <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Mecano</h3>
+                        <p>Riquisima tuerca de chocolate rellna de dulce de leche.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        
+                        <img
+                        src="/assets/fotos/bocadito.jpg"
+                        className="d-block w-100"
+                        alt="Chocolate"
+                        style={{ height: "50vh", objectFit: "contain" }} />
                         <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>Bocadito</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            Bocadito de chocolate relleno de dulce de leche.
                         </p>
                         </Carousel.Caption>
                     </Carousel.Item>

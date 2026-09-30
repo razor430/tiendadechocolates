@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className={`${estilo["mi-footer"]} text-center py-3 mt-4`}>
+    <footer className={`${estilo["mi-footer"]} text-center py-3 mt-4 pb-1`}>
       <Row className="justify-content-center mb-3">
         <Col  xs={12} md={6}>
           <Form className="mx-auto d-flex gap-2 align-items-end px-3"  style={{width:'100%', maxWidth: '500px',minWidth:'250px' }}>
@@ -20,8 +20,8 @@ const Footer = () => {
         </Col>
       </Row>
       
-      <p>2026 - Tienda de chocolates - Todos los derechos reservados</p>
-      <p>
+      <p className="mb-0 mt-0">2026 - Tienda de chocolates - Todos los derechos reservados</p>
+      <p className="mb-0 mt-0">
             <i className="bi bi-whatsapp">
               <span> +54 9 11 12345678</span>
             </i>
