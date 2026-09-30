@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(70, 24, 19);
+    position: fixed;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(146, 139, 139);
+
+    z-index: 100;
+}
+.header :global(.nav-link){
+    color: rgb(146, 139, 139);
+}

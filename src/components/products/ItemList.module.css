@@ -1,0 +1,13 @@
+.ItemList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    align-items: stretch;
+}
+.ItemList img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+}

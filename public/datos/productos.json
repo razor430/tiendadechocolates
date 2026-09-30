@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "title":"bananita dolca",
+        "price": 2000,
+        "image":"/assets/fotos/bananitadolca.jpg"
+    },
+    {
+        "id":2,
+        "title":"bocadito",
+        "price": 2500,
+        "image":"/assets/fotos/bocadito.jpg"
+    },
+    {
+        "id":3,
+        "title":"donuts",
+        "price": 4000,
+        "image":"/assets/fotos/donuts.jpg"
+    },
+    {
+        "id":4,
+        "title":"dos corazones",
+        "price": 3500,
+        "image":"/assets/fotos/doscorazones.jpg"
+    },{
+        "id":5,
+        "title":"marroc",
+        "price": 2000,
+        "image":"/assets/fotos/marroc.jpg"
+    },
+    {
+        "id":6,
+        "title":"mecano",
+        "price": 1200,
+        "image":"/assets/fotos/mecano.jpg"
+    },
+    {
+        "id":7,
+        "title":"mentitas",
+        "price": 1600,
+        "image":"/assets/fotos/mentitas.jpg"
+    }
+]

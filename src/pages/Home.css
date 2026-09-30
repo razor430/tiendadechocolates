@@ -1,0 +1,11 @@
+.mio{
+    color: rgb(146, 139, 139);
+
+}
+.jumbo{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 60vh;
+}
